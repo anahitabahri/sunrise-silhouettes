@@ -72,5 +72,5 @@ body, html {
     color: #e46716;
     margin-top: 2rem;
     opacity: 0.8;
-    letter-spacing: 0.05em;  /* Extra spacing for Raleway Dots */
+    font-weight: 600;
   }
