@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;  /* Default body font */
+    text-transform: lowercase;
+  }
+
+  #background {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    transition: background 0.3s ease;
+  }
+
+  .poem-container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .poem {
+    max-width: 42rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .poem-line {
+    color: white;
+    font-weight: 400;  /* Lora regular weight */
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    line-height: 1.6;  /* Better readability for Lora */
+  }
+
+  .title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;  /* extralight */
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.02em;  /* Slight letter spacing for Raleway */
+  }
+
+  .subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;  /* extralight */
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+  }
+
+  .final-image {
+    max-width: 400px;
+    width: 90%;
+    height: auto;
+    margin-bottom: 1rem;
+    opacity: 0.6;
+    mix-blend-mode: overlay;
+    filter: brightness(1.2);
+  }
+
+  .final-image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .signature {
+    font-family: 'Raleway Dots', cursive;
+    font-size: 1.25rem;
+    color: white;
+    margin-top: 2rem;
+    opacity: 0.8;
+    letter-spacing: 0.05em;  /* Extra spacing for Raleway Dots */
+  }
