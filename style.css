@@ -66,11 +66,26 @@ body, html {
     display: inline-block;
   }
 
+  .signature-container {
+  margin-top: 2rem;
+  opacity: 0.8;
+  letter-spacing: 0.05em;
+  text-align: center;
+  align-items: center;
+  }
+
+  .bisous {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    color: #e46716;
+    font-weight: 600;
+  }
+
   .signature {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: #e46716;
-    margin-top: 2rem;
-    opacity: 0.8;
-    font-weight: 600;
+    /* margin-top: 2rem; */
+    /* opacity: 0.8; */
+    font-weight: bold;
   }

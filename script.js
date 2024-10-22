@@ -127,10 +127,20 @@ const poems = [
       img.className = 'final-image';
       poemDiv.appendChild(img);
 
+      const signatureContainer = document.createElement('div');
+      signatureContainer.className = 'signature-container';
+      
+      const bisous = document.createElement('div');
+      bisous.className = 'bisous';
+      bisous.textContent = 'bisous,';
+      signatureContainer.appendChild(bisous);
+      
       const signature = document.createElement('div');
       signature.className = 'signature';
-      signature.textContent = 'anahita bahri';
-      poemDiv.appendChild(signature);
+      signature.textContent = 'anahita';
+      signatureContainer.appendChild(signature);
+      
+      poemDiv.appendChild(signatureContainer);
     } else {
       poem.content.forEach((line, i) => {
         const p = document.createElement('p');
