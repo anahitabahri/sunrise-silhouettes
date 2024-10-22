@@ -67,7 +67,7 @@ body, html {
   }
 
   .signature {
-    font-family: 'Raleway Dots', cursive;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.25rem;
     color: white;
     margin-top: 2rem;
