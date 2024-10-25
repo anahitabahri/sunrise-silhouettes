@@ -137,7 +137,7 @@ const poems = [
 
       const bisous = document.createElement('div');
       bisous.className = 'bisous';
-      bisous.textContent = 'xx,';
+      bisous.textContent = 'xx';
       signatureContainer.appendChild(bisous);
       
       poemDiv.appendChild(signatureContainer);
