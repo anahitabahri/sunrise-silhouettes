@@ -130,15 +130,15 @@ const poems = [
       const signatureContainer = document.createElement('div');
       signatureContainer.className = 'signature-container';
       
-      const bisous = document.createElement('div');
-      bisous.className = 'bisous';
-      bisous.textContent = 'bisous,';
-      signatureContainer.appendChild(bisous);
-      
       const signature = document.createElement('div');
       signature.className = 'signature';
       signature.textContent = 'anahita';
       signatureContainer.appendChild(signature);
+
+      const bisous = document.createElement('div');
+      bisous.className = 'bisous';
+      bisous.textContent = 'xx,';
+      signatureContainer.appendChild(bisous);
       
       poemDiv.appendChild(signatureContainer);
     } else {
