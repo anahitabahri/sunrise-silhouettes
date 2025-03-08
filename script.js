@@ -122,7 +122,9 @@ const poems = [
 
     if (index === poems.length - 1) {
       const img = document.createElement('img');
-      img.src = 'image.png';  
+      // img.src = 'image.png';  
+      // img.src = 'image.png'; 
+      img.src = 'whiteOutline.PNG'; 
       img.alt = 'line drawing';
       img.className = 'final-image';
       poemDiv.appendChild(img);
