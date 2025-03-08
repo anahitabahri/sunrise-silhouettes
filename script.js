@@ -123,8 +123,8 @@ const poems = [
     if (index === poems.length - 1) {
       const img = document.createElement('img');
       // img.src = 'image.png';  
-      img.src = 'orangeOutline.PNG'; 
-      // img.src = 'whiteOutline.PNG'; 
+      // img.src = 'orangeOutline.PNG'; 
+      img.src = 'whiteOutline.PNG'; 
       img.alt = 'line drawing';
       img.className = 'final-image';
       poemDiv.appendChild(img);
