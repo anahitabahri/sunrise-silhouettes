@@ -57,7 +57,7 @@ body, html {
     height: auto;
     margin-bottom: 1rem;
     opacity: 0.6;
-    mix-blend-mode: overlay;
+/*     mix-blend-mode: overlay; */
     filter: brightness(1.2);
   }
 
